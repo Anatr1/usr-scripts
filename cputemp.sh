@@ -11,7 +11,7 @@ z1=`expr $z1 / 1000` #Always 20°C on my machine
 z2=`expr $z2 / 1000`
 z3=`expr $z3 / 1000`
 z4=`expr $z4 / 1000`
-av=`expr $z0 + $z2 + $z3 + $z4`
+av=`expr $z0 + $z1 + $z3 + $z4`
 av=`expr $av / 4 `
 
 echo "Thermal zone 0: $z0°C"
