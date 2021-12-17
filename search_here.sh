@@ -7,9 +7,11 @@ if [ $# -ne 2 ]; then
     exit
 fi
 
-OLD_PATH=`pwd`
+#OLD_PATH=`pwd`
 NEW_PATH=$1
 STRING=$2
+
+#echo $NEW_PATH
 
 for f in `ls $NEW_PATH` ;
     do
